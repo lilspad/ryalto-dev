@@ -19,6 +19,7 @@ button {
     background: none;
     border: none;
     cursor: pointer;
+    font-family: inherit;
 }
 
 /* Text */
@@ -28,10 +29,27 @@ body {
     line-height: 1.2;
 }
 
+h1 {
+    letter-spacing: 0;
+    line-height: 1;
+}
+
+p {
+    font-size: 20px;
+}
+
+.txt-c {
+    text-align: center;
+}
+
 /* Display */
 
 .flex {
     display: flex;
+}
+
+.col {
+    flex-direction: column;
 }
 
 .g-35 {
@@ -46,6 +64,10 @@ body {
     align-items: center;
 }
 
+.jus-c {
+    justify-content: center;
+}
+
 /* Colors */
 
 .c-gray {
@@ -54,10 +76,10 @@ body {
 
 /* Misc */
 
-.lg-hide {
+.lg-hide, 
+.sm-hide {
     display: none;
 }
-
 
 /* Header */
 
@@ -107,7 +129,7 @@ header {
 
 /* header small */
 @media screen and (max-width: 704px) {
-   .sm-hide {
+   .h-hide {
         display: none;
     }
 
@@ -139,5 +161,58 @@ header {
         font-size: 14px;
         top: -8px;
         left: 87px;
+    }
+}
+
+/* Banner */
+
+.banner {
+    background-image: url("https://images.unsplash.com/photo-1611517975989-c5882f8d2cf1?auto=format&fit=crop&q=80&w=3270&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: calc(100vh - 80px);
+    position: relative;
+}
+
+.over-blue {
+    position: absolute;
+    inset: 0;
+    background-color: #1199EE;
+    opacity: 0.95;
+    padding: 50px 20px;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.main-btn {
+    background-color: white;
+    width: 200px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    &.black {
+        background-color: black;
+        color: white;
+    }
+}
+
+/* banner medium (and large) */
+
+@media screen and (min-width: 600px) {
+    .sm-hide {
+        display: block;
+    }
+    .over-blue {
+        padding: 50px 150px;
+    }
+    .over-blue p {
+        max-width: 926px;
     }
 }
