@@ -5,3 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Fonts */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.5;
+}
