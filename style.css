@@ -67,8 +67,8 @@ p {
     gap: 35px;
 }
 
-.g-50 {
-    gap: 50px;
+.g-60 {
+    gap: 60px;
 }
 
 .g-80 {
@@ -333,4 +333,29 @@ header {
         flex-direction: row;
         text-align: left;
     }
+}
+
+/* socials */ 
+
+.social-link {
+    background-color: black;
+    width: 64px;
+    height: 64px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.social-link a {
+    font-size: 34px;
+}
+
+.git {
+    background-color: white;
+}
+
+.colored {
+    font-size: 64px;
 }
