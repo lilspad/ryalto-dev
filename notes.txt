@@ -1,0 +1,12 @@
+Ryalto Initial thoughts
+
+-	Not responsive – especially header, mobile should have collapsed nav
+-	No obvious course of action – expand whitespace to make it easier on the eye and direct user towards the goal of the site
+-	Blog should have its own page; home page can have a preview of 2-3 posts
+-	Have a preview of the team members as well
+-	Move socials to footer – don’t want to link elsewhere on the web after just arriving on the page
+
+Afterthought 
+
+- Branding and feeling of the page remained the same
+- More modern design, e.g cards have more subtle shadow
