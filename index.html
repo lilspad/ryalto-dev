@@ -23,21 +23,25 @@
 
 <body>
 
-    <header>
+    <header class="flex g-80 ag-c">
     <!-- logo -->
         <div class="logo">
-            <img src="https://developer.ryalto.group/assets/images/ryalto-logo-lg.png" alt="Ryalto logo">
-            <span>dev</span>
+            <a href="">
+                <img class="logo-img" src="https://developer.ryalto.group/assets/images/ryalto-logo-lg.png" alt="Ryalto logo">
+                <span class="logo-dev c-gray">dev</span>
+            </a>
         </div>
     <!-- nav menu -->
         <nav>
-            <ul>
-                <li><a href="">blog</a></li>
-                <li><a href="">our team</a></li>
-                <li><a href="">careers</a></li>
-                <li><a href="">contact</a></li>
+            <button class="nav-btn lg-hide"><i class="fa-solid fa-bars"></i></button>
+            <ul class="flex g-35 c-gray sm-hide">
+                <li class="h-link"><a href="">blog</a></li>
+                <li class="h-link"><a href="">our team</a></li>
+                <li class="h-link"><a href="">careers</a></li>
+                <li class="h-link"><a href="">contact</a></li>
             </ul>
         </nav>
+        <button id="theme-toggle"><img class="h-img" src="https://developer.ryalto.group/assets/images/night-mode-blue.svg"></button>
     </header>
 
 <!-- banner -->
