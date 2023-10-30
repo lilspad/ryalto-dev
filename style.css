@@ -29,14 +29,15 @@ body {
     line-height: 1.2;
 }
 
-h1 {
+h1, h2 {
     letter-spacing: 0;
     line-height: 1;
     font-size: 34px;
     text-align: center;
 }
 
-h2 {
+h3 {
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -172,10 +173,11 @@ header {
 
     header {
         justify-content: space-between;
-        :last-child {
-                order: -1;
-            }
     } 
+
+    header:last-child {
+        order: -1;
+    }
 
     .logo {
         width: fit-content;
@@ -226,10 +228,11 @@ header {
     padding: 8px 15px;
     border-radius: 8px;
     font-size: 18px;
-    &.black {
-        background-color: black;
-        color: white;
-    }
+}
+
+.main-btn.black {
+    background-color: black;
+    color: white;
 }
 
 /* banner medium (and large) */
@@ -274,13 +277,13 @@ header {
 }
 
 .x-info {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .more-btn {
     color: #1199EE;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     max-width: 180px;
@@ -303,8 +306,8 @@ header {
 }
 
 .avatar2 {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 }
 
 .name-full {
